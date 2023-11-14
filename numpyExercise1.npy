@@ -25,4 +25,12 @@ print(res3)
 res = sash.invert(array1)
 res2=sash.invert(array2)
 print(res)
-print(res2)
+print(res2e)
+
+#reshape command
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+#newarr = arr.shape
+newarr = arr.reshape(4, 3)
+
+print(newarr)
